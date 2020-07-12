@@ -1,19 +1,19 @@
 # DRF-dataTable-Example-server-side
 
-此版本為 Django>2.0，以及搭配 MySQL 5.7 的範例
+This version uses Django>2.0，and MySQL 5.7
 
 ```text
 Django==2.2.1
 djangorestframework==3.9.3
 ```
 
-如果使用 Django<2.0，請參考 [master branch](https://github.com/twtrubiks/DRF-dataTable-Example-server-side)
+For Django<2.0，please see [master branch](https://github.com/twtrubiks/DRF-dataTable-Example-server-side)
 
 DataTables Example (server-side) - Python Django REST framework
 
-* [Youtube Demo](https://youtu.be/E0Pf5Ci-vGw) - 建議看影片的 demo 說明
+* [Youtube Demo](https://youtu.be/E0Pf5Ci-vGw) - explanation and demo 
 
-DataTables (server-side) 搭配 [Django REST framework](http://www.django-rest-framework.org/) 簡單範例 📝
+DataTables (server-side) rendering example with [Django REST framework](http://www.django-rest-framework.org/) 📝
 
 ## 特色
 
@@ -130,7 +130,7 @@ pip install mysqlclient
 
 ( 這個有可能安裝不起來，我自己最後是去找 mysqlclient-1.4.2-cp36-cp36m-win32.whl 安裝成功 )
 
-補充，如果是在 Linux 上，需要安裝 ( 否則 mysqlclient 會安裝失敗 )
+In addition, if it is on Linux, it needs to be installed (otherwise mysqlclient will fail to install)
 
 ```cmd
 sudo apt install libmysqlclient-dev
